@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.bienvenida">
+    <StackLayout BackgroundColor="#FFFFFF"
+                 AutomationProperties.IsInAccessibleTree="True">
+        <Image Source="1.jpeg"
+               Aspect="Fill"
+               IsAnimationPlaying="True"
+               HorizontalOptions="Center"
+               HeightRequest="180"
+               WidthRequest="500"
+               VerticalOptions="Fill" />
+        <Frame Padding="24"
+               CornerRadius="0"
+               BackgroundColor="#FFFFFF">
+            <Label Text="CERRAJERIA S.J.G.M"
+                   HorizontalTextAlignment="Center"
+                   TextColor="#000000"
+                   FontFamily="monospace"
+                   Margin="0,50"
+                   FontSize="40" />
+        </Frame>
+        <Label Text="Bienvenidos"
+               HorizontalTextAlignment="Center"
+               TextColor="#6B5B5B"
+               FontFamily="fantasy"
+               Margin="0,100"
+               FontSize="40" />
+        <Button Text="Entrar"
+                FontSize="Large"
+                TextColor="#000000"
+                HorizontalOptions="Center"
+                FontFamily="fantasy"
+                CornerRadius="15"
+                Margin="40"
+                BackgroundColor="#EFA80A"
+                VerticalOptions="Fill" />
+    </StackLayout>
+</ContentPage>

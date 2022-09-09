@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.iniciosesion">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <Image Source="https://www.libreriaingeniero.com/wp-content/uploads/2021/05/cerrajeros-en-construccion.jpg?v=1621109489"
+                   Aspect="Fill" />
+            <Label Text="ADSER"
+                   FontSize="50"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   Margin="0,20"
+                   TextColor="Black" />
+            <Frame VerticalOptions="CenterAndExpand"
+                   HasShadow="False">
+                <StackLayout>
+                    <Label Text="Cerrajeria S.J.G.M"
+                           TextColor="Black"
+                           FontFamily="courier"
+                           FontSize="17"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center" />
+                    <Frame CornerRadius="9">
+                        <Entry Keyboard="Text"
+                               TextColor="Black"
+                               FontSize="12"
+                               Placeholder="Usuario"
+                               PlaceholderColor="Gray"
+                               Margin="5" />
+                    </Frame>
+                    <Frame CornerRadius="9">
+                        <Entry Keyboard="Text"
+                               IsPassword="True"
+                               FontSize="12"
+                               TextColor="Black"
+                               Placeholder="Contraseña"
+                               PlaceholderColor="Gray" />
+                    </Frame>
+                    <Button Text="Iniciar sesión"
+                            TextColor="Black"
+                            CornerRadius="25"
+                            Margin="40,20,40,0"
+                            BackgroundColor="#FFEDAC2A" />
+                    <Label Text="Olvido su contraseña"
+                           FontSize="12"
+                           TextColor="Gray"
+                           HorizontalOptions="Center"
+                           TextDecorations="Underline" />
+                    <Label Text="Salir"
+                           FontSize="12"
+                           TextColor="Gray"
+                           HorizontalOptions="Center"
+                           TextDecorations="Underline" />
+                </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

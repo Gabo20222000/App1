@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.registro">
+    <Grid>
+        <Image Source="2.jpeg"
+               Aspect="AspectFill" />
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+        </Grid>
+        <StackLayout>
+            <Frame BackgroundColor="#FABD04"
+                   Padding="5"
+                   CornerRadius="10">
+                <Label Text="Registro"
+                       HorizontalTextAlignment="Start"
+                       FontFamily="serif"
+                       TextColor="#000000"
+                       FontSize="25" />
+            </Frame>
+            <StackLayout Grid.Row="1"
+                         Padding="40,20">
+                <Entry Placeholder="Nombre"
+                       PlaceholderColor="White"
+                       HorizontalTextAlignment="Start"
+                       Margin="10" />
+                <Entry Placeholder="Apellido"
+                       PlaceholderColor="White"
+                       IsPassword="True"
+                       Margin="10" />
+                <Entry Placeholder="Numero de celular"
+                       PlaceholderColor="White"
+                       IsPassword="True"
+                       Margin="10" />
+                <Entry Placeholder="Indentificacion"
+                       PlaceholderColor="White"
+                       IsPassword="True"
+                       Margin="10" />
+                <Entry Placeholder="Correo electronico"
+                       PlaceholderColor="White"
+                       IsPassword="True"
+                       Margin="10" />
+                <Entry Placeholder="Contraseña"
+                       PlaceholderColor="White"
+                       IsPassword="True"
+                       Margin="10" />
+                <Button Text="Registrarse"
+                        FontFamily="serif"
+                        BackgroundColor="#FBD70D"
+                        BorderRadius="20"
+                        TextColor="#000000" />
+            </StackLayout>
+        </StackLayout>
+    </Grid>
+</ContentPage>
